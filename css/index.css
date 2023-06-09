@@ -1,0 +1,585 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* @media only screen and (min-width:425px){} */
+
+.parent{
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    margin-left: auto;    
+}
+.divider{
+    border: 1px solid rgb(255, 255, 255);
+    margin: 9px;    
+}
+
+.purple{
+    background-color: purple;
+    padding-bottom: 80px;
+}
+.logo{
+    margin-top: -25px;
+    padding-left: 25px;
+}
+.nav{
+    display: none;
+}
+.hi{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+}
+#work{
+    background-color: rgb(247, 107, 6);
+    font-size: 10px;
+    color: white;
+    margin-left: 35%;
+    padding: 6px 25px 6px 25px;
+    font-weight: 600;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+.green{
+    background-color: aqua;
+    padding-bottom: 40px;
+    padding-top: 15px;
+}
+hr{
+    width: 90px;
+    margin-left: 46.8%;
+}
+h2{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+p{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+#greenul{
+    list-style-type: none;    
+}
+.greenimg{
+    padding-left: 40%;
+    padding-top: 50px;
+}
+.grey{
+    background-color: rgb(232, 213, 213);
+    padding-bottom: 50px;
+    padding-top: 15px;
+}
+#greyul{
+    list-style-type: none;
+}
+#greyul li{
+    margin-top: 50px;
+}
+#greyul li img{
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+    margin-left: 25%;
+}
+h3{
+    text-align: center;
+    font-size: 22px;
+    padding-top: 20px;
+}
+h5{
+    text-align: center;
+    color: red;
+    font-size: 14px;
+    padding-top: 10px;
+}
+#greyul li p{
+    color: black;
+}
+.white{
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.white p{
+    margin-top: 6px;
+}
+#whiteul{
+    list-style-type: none;
+    padding-top: 30px;
+}
+#whiteul li{
+    position: relative;
+}
+#whiteul li span{
+    position: absolute;
+    top: 43px;
+    left: 155px;
+    font-size: 60px;
+    font-weight: bold;
+}
+h2{
+    color: black;
+    font-size: 25px;
+}
+#whiteul li p{
+    color: black;
+}
+#whiteul li img{
+    margin-left: 31%;
+}
+.orange{
+    background-color: rgb(244, 181, 64);
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.orange a{
+    margin-top: 15px;
+}
+#button{
+    padding-top: 15px;
+    margin-left: 22%;
+}
+#button li{
+    display: inline-block;
+    margin-left: 2%;
+    background-color: rgb(19, 130, 130);
+    padding: 2px 5px 2px 5px;
+    border-radius: 6px;
+}
+#button li a{
+    text-decoration: none;
+    color: white;
+}
+#orangeul li{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#orangeul li p{
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+#orangeul li img{
+    padding-bottom: 15px;
+    height: 220px;
+    width: 360px;
+    margin-left: 8%;
+}
+#load{
+    background-color: rgb(19, 130, 130);
+    font-size: 14px;
+    color: white;
+    margin-left: 32%;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;   
+}
+.pink{
+    background-color: rgb(190, 59, 81);
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.pink p{
+    margin-top: 15px;
+}
+#pinkul li h5{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+#pinkul li h4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#pinkul li img{
+    padding-top: 30px;
+    border-radius: 650%;
+    width: 240px;
+    height: 240px;
+    margin-left: 22%;
+}
+.blue{
+    background-color: rgb(92, 4, 216);
+    padding-top: 2px;
+}
+.blue h2{
+    font-size: 24px;
+}
+.blue p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+form{
+    padding-left: 10.5%;
+    padding-bottom: 20px;
+}
+input{
+    background-color: rgba(0, 0, 0, 0.650);
+    color: gray;
+    border-radius: 5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.text input{
+    width: 162px;
+}
+.message textarea{
+    background-color: rgba(0, 0, 0, 0.650);
+    height: 80px;
+    width: 332px;
+    margin-top: -10px;
+}
+.send input{
+    color: white;
+    width: 180px;
+    text-align: center;
+    margin-left: 21%;
+    margin-top: -40px;
+}
+#blueul{
+    background-color: rgba(0, 0, 0, 0.350);
+}
+#blueul li{
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 3.5%;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+/* tablet resposnive */
+@media only screen and (min-width:768px){
+    .hi{
+        font-size: 22px;
+    }
+    #work{
+        margin-left: 38%;
+        font-size: 13px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .greenli1{
+        display: inline-block;
+        margin-left: 9%;
+    }
+    .greenli2{
+        display: inline-block;
+        margin-left: 9%;
+    }
+    .greyli1{
+        display: inline-block;
+        margin-left: 7.5%;
+    }
+    .greyli2{
+        display: inline-block;
+        margin-left: 7.5%;
+    }
+    #greyul li img{
+        margin-left: 13%;
+    }
+    .whiteli1{
+        display: inline-block;
+        margin-left: 20%;
+    }
+    .whiteli2{
+        display: inline-block;
+        margin-left: 18%;
+    }
+    #whiteul li span{
+        left: 30px;
+    }
+    #whiteul li img{
+        margin-left: 5%;
+    }
+    #orangeul li a{
+        font-size: 14px;
+    }
+    #orangeul li img{
+        margin-left: 15%;
+        height: auto;
+        width: auto;
+    }
+    #button {
+        margin-left: 33.5%;
+    }
+    #load{
+        font-size: 14px;
+        margin-left: 40%;
+    }
+    .pinkli1{
+        display: inline-block;
+        margin-left: 12%;
+    }
+    .pinkli2{
+        display: inline-block;
+        margin-left: 12%;
+    }
+    #pinkul li img{
+        margin-left: 1%;
+    }
+    .blue h2{
+        font-size: 20px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .text{
+        padding-left: 17%;
+    }
+    .text input{
+        width: 250px;
+    }
+    .message textarea{
+        background-color: rgba(0, 0, 0, 0.650);
+        height: 130px;
+        width: 510px;
+        margin-top: -10px;
+        margin-left: 7%;
+    }
+    .send input{
+        width: 230px;
+        margin-left: 27.5%;
+        margin-top: -40px;
+    }
+    #blueul{
+        padding-left: 12%;
+    }
+    #blueul li{
+        font-size: 16px;
+    }
+}
+
+/* laptop responsive */
+@media only screen and (min-width:1024px){
+    .logo{
+        margin-top: 25px;
+        margin-left: 25px;
+        display: inline;
+    }
+    .parent{
+        display: none;
+    }
+    .nav{
+        display: inline;
+        list-style-type: none;
+        padding-left: 50%;
+    }
+    .nav li{
+        display: inline-block;
+    }
+    .nav li a{
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 6px;
+    }
+    .hi{
+        font-size: 28px;
+        padding-top: 70px;
+    }
+    p{
+        font-size: 24px;
+    }
+    #work{
+        margin-left: 40%;
+        font-size: 18px;
+    }    
+    #greenul li{
+        display: inline-block;
+        width: 13%;
+    }
+    .sci{
+        font-size: 20px;
+    }
+    .greenimg{
+        margin-left: -20%;
+    }
+    #greyul li{
+        display: inline-block;
+        width: 16%;
+    }
+    #greyul li img{
+        margin-left: -20%;
+    }
+    #whiteul li{
+        display: inline-block;
+        margin-left: 6.5%;
+    }
+    #button{
+        margin-left: 37%;
+    }
+    #orangeul li img{
+        height: 300px;
+        width: 490px;
+        margin-left: 6%;
+    }
+    .orangeli1{
+        display: inline-block;
+        padding-left: 0%;
+    }
+    .orangeli2{
+        display: inline-block;
+        padding-left: 0%;
+    }
+    #load{
+        font-size: 16px;
+        margin-left: 42%;
+    }
+    #pinkul li{
+        display: inline-block;
+        margin-left: 5.5%;
+        width: 180px;
+    }
+    #pinkul li img{
+        height: 200px;
+        width: 200px;
+    }
+    .blue h2{
+        font-size: 24px;
+    }
+    p{
+        font-size: 17px;
+    }
+    .text{
+        padding-left: 20%;
+    }
+    .text input{
+        width: 300px;
+    }
+    .message textarea{
+        background-color: rgba(0, 0, 0, 0.650);
+        height: 150px;
+        width: 607px;
+        margin-top: -10px;
+        margin-left: 10.6%;
+    }
+    .send input{
+        width: 300px;
+        margin-left: 28%;
+        margin-top: -40px;
+    }
+    #blueul{
+        padding-left: 7.5%;
+    }
+    #blueul li{
+        font-size: 20px;
+        margin-left: 5%;
+    }
+}
+/* big screen responsve */
+@media only screen and (min-width:1440px){
+    .purple{
+        padding-bottom: 60px;
+    }
+    .nav{
+        padding-left: 60%;
+    }
+    .nav li a{
+        font-size: 18px;
+    }
+    .hi{
+        font-size: 32px;
+    }
+    #work{
+        font-size: 20px;
+        margin-left: 42.5%;
+    }
+    #greenul li{
+        margin-left: 9%;
+    }
+    #greyul li{
+        width: 15%;
+    }
+    #greyul li img{
+        margin-left: 1%;
+    }
+    #whiteul li{
+        margin-left: 10.5%;
+    }
+    #button{
+        padding-top: 30px;
+        margin-left: 38%;
+    }
+    a{
+        font-size: 18px;
+    }
+    .orangeli1{
+        display: inline-block;
+        padding-left: 7%;
+    }
+    .orangeli2{
+        display: inline-block;
+        padding-left: 7%;
+    }
+    #orangeul li img{
+        height: auto;
+        width:auto;
+    }
+    #orangeul li p{
+        font-size: 18px;
+    }
+    #load{
+        font-size: 20px;
+        margin-left: 41.3%;
+    }
+    #pinkul li{
+        margin-left: 7%;
+        width: auto;
+    }
+    #pinkul li img{
+        height: 240px;
+        width: 240px;
+        margin-left: 2%;
+    }
+    .blue h2{
+        font-size: 28px;
+    }
+    .blue p{
+        font-size: 20px;
+    }
+    .text{
+        padding-left: 20.5%;
+    }
+    .text input{
+        height: 30px;
+        width: 420px;
+        font-size: 18px;
+    }
+    .message textarea{
+        background-color: rgba(0, 0, 0, 0.650);
+        font-size: 18px;
+        height: 200px;
+        width: 852px;
+        margin-top: -10px;
+        margin-left: 11%;
+    }
+    .send input{
+        height: 30px;
+        width: 370px;
+        font-size: 18px;
+        margin-left: 30%;
+        margin-top: -40px;
+    }
+    #blueul{
+        padding-left: 16%;
+    }
+    #blueul li{
+        font-size: 20px;
+    }
+
+}
